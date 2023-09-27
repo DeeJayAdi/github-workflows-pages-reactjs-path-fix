@@ -1,0 +1,10 @@
+name: "ReactJS Path Fix"
+description: "ReactJS Path Fix on GitHub Workflow Pages"
+inputs:
+  build_path:
+    description: "The build path"
+    required: false
+    default: ./build
+runs:
+  using: node20
+  main: "index.js"
